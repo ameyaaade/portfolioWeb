@@ -1,0 +1,66 @@
+/* GetInTouch.css */
+.section-label {
+    color: #363062;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.get-in-touch_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.get-in-touch {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .get-in-touch h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .get-in-touch form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .get-in-touch label {
+    margin-bottom: 4px;
+  }
+  
+  .get-in-touch input,
+  .get-in-touch textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    margin-bottom: 16px;    
+  }
+  
+  .get-in-touch button {
+    padding: 10px 20px;
+    background-color: #363062;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-in-touch button:hover {
+    background-color: #4D4C7D;
+  }
+  
+  .get-in-touch p {
+    color: #28a745;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
