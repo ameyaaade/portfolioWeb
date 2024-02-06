@@ -1,0 +1,80 @@
+/* src/styles.css */
+
+/* Experience styles */
+#experience {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  .experience-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    /* flex-direction: column; */
+  }
+  .experience-timeline {
+    width: 10px;
+    height: 100vh;
+    border-radius:20px ;
+    border: 1px solid #F99417;
+    background-color: #F99417;
+  }
+  .experience-title{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    /* align-self: center; */
+    justify-self: right;
+    font-size: 30px;
+    letter-spacing: 2px;
+    height: fit-content;
+  }
+  .experience-items__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 18px;
+  }
+  .experience-card {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+  }
+  
+.experience-card_info-container {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+  .experience-card img {
+    /* flex:1; */
+    max-width: 150px;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .experience-item h3 {
+    color: #333;
+  }
+  
+  .experience-item p {
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .experience-item ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  .experience-item ul li {
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
