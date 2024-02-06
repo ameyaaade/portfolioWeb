@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.7cb5755c.css",
+    "main.js": "/react-gh-pages/static/js/main.ec3e25a9.js",
+    "static/media/profilePic.png": "/react-gh-pages/static/media/profilePic.52c425660f2461dd633b.png",
+    "static/media/developer.png": "/react-gh-pages/static/media/developer.22539a24034d9c0319fa.png",
+    "static/media/deloitte.png": "/react-gh-pages/static/media/deloitte.ce593f1873a649a27e80.png",
+    "static/media/Kubernetes.png": "/react-gh-pages/static/media/Kubernetes.d5beabf5bd607324cb9c.png",
+    "static/media/Socket-io.png": "/react-gh-pages/static/media/Socket-io.35873a7d5997e20f62e0.png",
+    "static/media/nineleaps.png": "/react-gh-pages/static/media/nineleaps.9cee9d24cd76c3ecaebf.png",
+    "static/media/vue.png": "/react-gh-pages/static/media/vue.7014c4ee29e5a7a39777.png",
+    "static/media/react-native.png": "/react-gh-pages/static/media/react-native.4a7a1893c08e078b3ad9.png",
+    "static/media/docker.png": "/react-gh-pages/static/media/docker.89cf461901a88724368a.png",
+    "static/media/salesforce.png": "/react-gh-pages/static/media/salesforce.4a4cf0f9a7a338c335a4.png",
+    "static/media/mongo-db.png": "/react-gh-pages/static/media/mongo-db.fb2e1f8133bbbe1b5fdf.png",
+    "static/media/python.png": "/react-gh-pages/static/media/python.c7d50de89fdca047868f.png",
+    "static/media/nodejs.png": "/react-gh-pages/static/media/nodejs.cda4612f5b3c056b5695.png",
+    "static/media/next-js.svg": "/react-gh-pages/static/media/next-js.1b2b52c044b9dcea988e68b966864c5a.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.7cb5755c.css.map": "/react-gh-pages/static/css/main.7cb5755c.css.map",
+    "main.ec3e25a9.js.map": "/react-gh-pages/static/js/main.ec3e25a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cb5755c.css",
+    "static/js/main.ec3e25a9.js"
+  ]
+}
