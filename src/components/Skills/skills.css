@@ -90,3 +90,29 @@
   font-size: 18px;
   font-weight: 800;
 }
+
+@media (max-width: 780px) {
+  .scroll-section {
+    height: auto;
+  }
+  .section-label {
+    width: 100%;
+    text-align: center;
+  }
+  .scroll-section .scroll-section-container {
+   display: flex;
+   height: fit-content;
+  }
+  .skill-card {
+    width: 40%;
+  }
+  .skill-card img {
+    width: 40px;
+    height: 40px;
+
+  } 
+
+  .skill-card span {
+    font-size: 9px;
+  }
+}

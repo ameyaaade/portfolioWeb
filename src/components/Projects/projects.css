@@ -101,3 +101,16 @@
   text-decoration: none;
   font-weight: bold;
 }
+
+@media (max-width: 780px) {
+
+.projects-content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.project-overlay{
+  position: relative;
+  border-radius: 0;
+}
+}
