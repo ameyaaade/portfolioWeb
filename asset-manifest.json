@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolioWeb/static/css/main.7cb5755c.css",
-    "main.js": "/portfolioWeb/static/js/main.729ac12a.js",
+    "main.css": "/portfolioWeb/static/css/main.c04283b9.css",
+    "main.js": "/portfolioWeb/static/js/main.75a81264.js",
     "static/media/profilePic.png": "/portfolioWeb/static/media/profilePic.52c425660f2461dd633b.png",
     "static/media/developer.png": "/portfolioWeb/static/media/developer.22539a24034d9c0319fa.png",
     "static/media/deloitte.png": "/portfolioWeb/static/media/deloitte.ce593f1873a649a27e80.png",
     "static/media/Kubernetes.png": "/portfolioWeb/static/media/Kubernetes.d5beabf5bd607324cb9c.png",
     "static/media/Socket-io.png": "/portfolioWeb/static/media/Socket-io.35873a7d5997e20f62e0.png",
     "static/media/nineleaps.png": "/portfolioWeb/static/media/nineleaps.9cee9d24cd76c3ecaebf.png",
+    "static/media/react.png": "/portfolioWeb/static/media/react.e54fdd05dd41527fb1e0.png",
     "static/media/vue.png": "/portfolioWeb/static/media/vue.7014c4ee29e5a7a39777.png",
     "static/media/react-native.png": "/portfolioWeb/static/media/react-native.4a7a1893c08e078b3ad9.png",
     "static/media/docker.png": "/portfolioWeb/static/media/docker.89cf461901a88724368a.png",
@@ -17,11 +18,11 @@
     "static/media/nodejs.png": "/portfolioWeb/static/media/nodejs.cda4612f5b3c056b5695.png",
     "static/media/next-js.svg": "/portfolioWeb/static/media/next-js.1b2b52c044b9dcea988e68b966864c5a.svg",
     "index.html": "/portfolioWeb/index.html",
-    "main.7cb5755c.css.map": "/portfolioWeb/static/css/main.7cb5755c.css.map",
-    "main.729ac12a.js.map": "/portfolioWeb/static/js/main.729ac12a.js.map"
+    "main.c04283b9.css.map": "/portfolioWeb/static/css/main.c04283b9.css.map",
+    "main.75a81264.js.map": "/portfolioWeb/static/js/main.75a81264.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cb5755c.css",
-    "static/js/main.729ac12a.js"
+    "static/css/main.c04283b9.css",
+    "static/js/main.75a81264.js"
   ]
 }
