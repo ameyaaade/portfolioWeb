@@ -7,6 +7,8 @@ import "./experience.css";
 gsap.registerPlugin(ScrollTrigger);
 const Experience = ({ expRef }) => {
   useEffect(() => {
+    if (window.innerWidth > 780) {
+
     gsap.utils.toArray(".experience-card").forEach((card) => {
       gsap.fromTo(
         card,
@@ -25,6 +27,7 @@ const Experience = ({ expRef }) => {
         }
       );
     });
+  }
   }, []);
   return (
     <section id="experience" ref={expRef}>

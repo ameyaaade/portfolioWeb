@@ -25,56 +25,61 @@ gsap.registerPlugin(ScrollTrigger);
 const Skills = ({ skillRef }) => {
   const skillsCardRef = useRef(null);
   useEffect(() => {
-    // Animate each .skill-card on scroll
-    gsap.utils.toArray("div.skill-card").forEach((card) => {
-      gsap.fromTo(
-        card,
-        {
-          autoAlpha: 0,
-          y: 30,
-        },
-        {
-          duration: 0.5,
-          autoAlpha: 1,
-          y: 10,
-          ease: "back.out(1.7)",
-          scrollTrigger: {
-            trigger: card,
-            start: "top 75%",
-            toggleActions: "play none none reverse",
+
+      // Animate each .skill-card on scroll
+      gsap.utils.toArray("div.skill-card").forEach((card) => {
+        if (window.innerWidth > 780) {
+        gsap.fromTo(
+          card,
+          {
+            autoAlpha: 0,
+            y: 30,
           },
+          {
+            duration: 0.5,
+            autoAlpha: 1,
+            y: 10,
+            ease: "back.out(1.7)",
+            scrollTrigger: {
+              trigger: card,
+              start: "top 75%",
+              toggleActions: "play none none reverse",
+            },
+          }
+        );
         }
-      );
-    });
-
-    // Hover animation for each card and its text
-    gsap.utils.toArray(".skill-card").forEach((card) => {
-      let tl = gsap.timeline({
-        paused: true,
-        reversed: true,
-        defaults: { duration: 0.3, ease: "power1.out" },
       });
+      
+      // Hover animation for each card and its text
+      gsap.utils.toArray(".skill-card").forEach((card) => {
+        if (window.innerWidth > 780) {
+        let tl = gsap.timeline({
+          paused: true,
+          reversed: true,
+          defaults: { duration: 0.3, ease: "power1.out" },
+        });
 
-      tl.to(card, {
-        scale: 1.05,
-      }).to(
-        card.querySelectorAll("img, span"),
-        {
-          color: "#f00",
-          duration: 0.2,
-        },
-        0
-      );
-
-      card.addEventListener("mouseenter", () => tl.play());
-      card.addEventListener("mouseleave", () => tl.reverse());
-    });
+        tl.to(card, {
+          scale: 1.05,
+        }).to(
+          card.querySelectorAll("img, span"),
+          {
+            color: "#f00",
+            duration: 0.2,
+          },
+          0
+        );
+        
+        card.addEventListener("mouseenter", () => tl.play());
+        card.addEventListener("mouseleave", () => tl.reverse());
+        }
+      })
+  
   }, []);
   return (
     <section className="scroll-section" ref={skillRef}>
-
       <div className="scroll-section-container" ref={skillsCardRef}>
-      <h2 className="section-label">Skills</h2>
+        <h2 className="section-label">Skills</h2>
         <div className="skill-card">
           <img alt="react_logo" src={ReactImg} /> <span> React JS</span>
         </div>

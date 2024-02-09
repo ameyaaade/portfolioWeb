@@ -51,9 +51,12 @@ const projects = [
 ];
 
 const Projects = ({ projectRef }) => {
+
   useEffect(() => {
     gsap.utils.toArray(".project-item").forEach((card) => {
-      gsap.fromTo(
+      
+        if (window.innerWidth > 780) {
+          gsap.fromTo(
         card,
         {
           autoAlpha: 0,
@@ -71,7 +74,7 @@ const Projects = ({ projectRef }) => {
           },
         }
       );
-    });
+  }});
   }, []);
 
 
