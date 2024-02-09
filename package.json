@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/gh-pages",
+  "homepage": "https://ameyaaade.github.io/portfolioWeb/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
